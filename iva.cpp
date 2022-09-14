@@ -19,7 +19,7 @@ int main (){
 	cin>>n1;
 	precio_int=n1 * iva;
 	precio_final= precio_int * n1;
-	count<<"\nEl precio final es: "<<precio_final<<endl;
+	cout<<"\nEl precio final es: "<<precio_final<<endl;
 	
 	return 0;
 }
