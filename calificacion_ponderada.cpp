@@ -25,7 +25,7 @@ int main (){
 	c *=0.10;
 	resultado= a+b+c;
 	cout.precision(2);//sirve para modificar la precision de los numeros mostrados por consola
-	count<< "\nEl resultado es: "<<resultado;
+	cout<< "\nEl resultado es: "<<resultado;
 	return 0;
 	return 0;
 }
