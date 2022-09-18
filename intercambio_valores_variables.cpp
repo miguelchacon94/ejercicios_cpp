@@ -18,7 +18,7 @@ int main (){
 	aux =x;
 	x=y;
 	y=aux;
-	count<<"\nEl valor de X es: "<<x<<endl;
-	count<<"El valor de Y es: "<<y<<endl;
+	cout<<"\nEl valor de X es: "<<x<<endl;
+	cout<<"El valor de Y es: "<<y<<endl;
 	return 0;
 }

@@ -26,9 +26,9 @@ int main (){
 	cin>>sexo;
 	cout<< "\nAltura: ";
 	cin>>altura;
-	count<<"\nEl sexo es: "<<precio_final<<endl;
-	count<<"La altura es: "<<precio_final<<endl;
-	count<<"La edad es: "<<precio_final<<endl;
+	cout<<"\nEl sexo es: "<<precio_final<<endl;
+	cout<<"La altura es: "<<precio_final<<endl;
+	cout<<"La edad es: "<<precio_final<<endl;
 	
 	return 0;
 }

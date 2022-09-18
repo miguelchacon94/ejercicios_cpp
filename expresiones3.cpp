@@ -24,6 +24,6 @@ int main (){
 	cin>>f;
 	resultado= (a+(b/c)) / (d+(e/f));
 	cout.precision(2);//sirve para modificar la precision de los numeros mostrados por consola
-	count<< "\nEl resultadord: "<<resultado;
+	cout<< "\nEl resultadord: "<<resultado;
 	return 0;
 }

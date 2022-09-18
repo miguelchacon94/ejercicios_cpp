@@ -21,6 +21,6 @@ int main (){
 	cin>>d;
 	resultado= (a+b+c+d)/4;
 	cout.precision(2);//sirve para modificar la precision de los numeros mostrados por consola
-	count<< "\nEl resultado es: "<<resultado;
+	cout<< "\nEl resultado es: "<<resultado<<endl;
 	return 0;
 }

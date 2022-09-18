@@ -19,15 +19,15 @@ int main (){
 	int edad=0;
 	float altura;
 	char sexo[10];//el numero entre corchetes indica loc caracteres que se van a guardar
-	cout << "Edad: ";
-	cin >> edad;
-	cout << "\nSexo[H/M]: ";
-	cin >>sexo;
-	cout << "\nAltura: ";
-	cin >> altura;
-	cout << "\nEl sexo es: "<<sexo<<endl;
-	cout << "La altura es: "<<altura<<endl;
-	cout << "La edad es: "<<edad<<endl;
+	cout<< "Edad: ";
+	cin>>edad;
+	cout<< "\nSexo[H/M]: ";
+	cin>>sexo;
+	cout<< "\nAltura: ";
+	cin>>altura;
+	cout<<"\nEl sexo es: "<<precio_final<<endl;
+	cout<<"La altura es: "<<precio_final<<endl;
+	cout<<"La edad es: "<<precio_final<<endl;
 	
 	return 0;
 }

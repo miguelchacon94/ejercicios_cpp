@@ -24,9 +24,9 @@ int main (){
 	resta= n1 - n2;
 	multiplicacion=n1 * n2;
 	division= n1 / n2;
-	count<<"\nLa suma es: "<<suma<<endl;
-	count<<"La resta es: "<<resta<<endl;
-	count<<"La multiplicacion es: "<<multiplicacion<<endl;
-	count<<"La division es: "<<division<<endl;
+	cout<<"\nLa suma es: "<<suma<<endl;
+	cout<<"La resta es: "<<resta<<endl;
+	cout<<"La multiplicacion es: "<<multiplicacion<<endl;
+	cout<<"La division es: "<<division<<endl;
 	return 0;
 }
