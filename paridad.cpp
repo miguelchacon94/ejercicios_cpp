@@ -11,7 +11,7 @@ using namespace std;
 
 int main (){
 	int numero1;
-	cout<< "Introduce numero: "
+	cout<< "Introduce numero: ";
 	cin>>numero1;
 	if(numero1==0){
 		cout<<"\nEl numero es 0";
