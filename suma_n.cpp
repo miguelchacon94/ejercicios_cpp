@@ -18,7 +18,8 @@ int main (){
 		suma +=  n;
 	}
 	cout<<"\nEl resultado es: "<<suma<<endl;
-	systm("pause");
+	cin.get();
+	//system("pause");
 	return 0;
 
 }

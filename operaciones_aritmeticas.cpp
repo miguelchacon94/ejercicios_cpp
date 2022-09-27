@@ -28,5 +28,6 @@ int main (){
 	cout<<"La resta es: "<<resta<<endl;
 	cout<<"La multiplicacion es: "<<multiplicacion<<endl;
 	cout<<"La division es: "<<division<<endl;
+	cin.get();
 	return 0;
 }

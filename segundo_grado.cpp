@@ -18,11 +18,12 @@ int main (){
 	cin>>b;
 	cout<< "\nIntroduce c: ";
 	cin>>c;
-	resultado1= (-b + sqrt(pow(b,2)-(4*a*c))/(2*a);
-	resultado1= (-b - sqrt(pow(b,2)-(4*a*c))/(2*a);
+	resultado1= (-b + sqrt(pow(b,2)-(4*a*c))/(2*a));
+	resultado1= (-b - sqrt(pow(b,2)-(4*a*c))/(2*a));
 	cout.precision(2);
 	cout<< "\nEl primer resultado es: "<<resultado1<<endl;
 	cout<< "\nEl segundo resultado es: "<<resultado2<<endl;
+	cin.get();
 	return 0;
 
 }

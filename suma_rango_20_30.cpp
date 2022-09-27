@@ -16,12 +16,13 @@ int main (){
 	do {
 		cout<<"Di un numero;";
 		cin>>numero;
-		if (numero>){
+		if (numero>0){
 			suma += numero;
 		}
-	}while(()&& (numero !=0);
+	}while(((numero<=30)||(numero>=20))&& (numero !=0));
 	cout<<"\nLa suma es: "<<suma<<endl;
-	systm("pause");
+	cin.get();
+	//system("pause");
 	return 0;
 
 }

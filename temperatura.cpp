@@ -26,12 +26,13 @@ int main (){
 			menor = temperatura;
 		}
 	}
-	
+
 	promedio = sumaTotal/6;
 	cout<<"\nLa temperatura media es: "<<promedio<<endl;
 	cout<<"\nLa maxima es: "<<mayor<<endl;
 	cout<<"\nLa minima es: "<<menor<<endl;
-	systm("pause");
+	cin.get();
+	//system("pause");
 	return 0;
 
 }

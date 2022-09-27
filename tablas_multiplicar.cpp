@@ -19,8 +19,8 @@ int main (){
 	for(i=1; i<=10;i++){
 		cout<<numero<<" * "<<i<<" = "<<numero*i<<endl;
 	}
-	
-	systm("pause");//evita que los programas ejecutables no terminen hasta que se presione una tecla
+	cin.get();
+	//system("pause");//evita que los programas ejecutables no terminen hasta que se presione una tecla
 	return 0;
 
 }

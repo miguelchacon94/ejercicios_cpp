@@ -19,6 +19,7 @@ int main (){
 		sumaTotal += factorial;
 	}
 	cout<<"\nLa suma total es: "<<sumaTotal<<endl;
-	systm("pause");
+	cin.get();
+	//system("pause");
 	return 0;
 }

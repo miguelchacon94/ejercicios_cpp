@@ -15,7 +15,7 @@ using namespace std;
 
 int main (){
 	int conteo = 0, numero;
-	
+
 	do{
 		cout<<"Introduce un numero: ";
 		cin>>numero;
@@ -24,7 +24,8 @@ int main (){
 		}
 	}while(numero !=0);
 	cout<<"\nEl numero de valores mayores a 0 es: "<<conteo<<endl;
-	systm("pause");//evita que los programas ejecutables no terminen hasta que se presione una tecla
+	cin.get();
+	//system("pause");//evita que los programas ejecutables no terminen hasta que se presione una tecla, solo windows
 	return 0;
 
 }

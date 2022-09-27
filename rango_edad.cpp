@@ -19,5 +19,6 @@ int main (){
 	else{
 		cout<<"\nEl numero no esta en el rango"<<endl;
 	}
-
+	cin.get();
+	return 0;
 }
