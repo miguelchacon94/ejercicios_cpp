@@ -22,16 +22,16 @@ int main (){
 		case 1:
 			cout<<"introduzca un numero: "<<endl;
 			cin>>extra;
-			saldo =dinero+extra; 
+			saldo =dinero+extra;
 			cout<<"Dinero en cuenta: "<< saldo<<endl;
 			break;
 		case 2:
 			cout<<"introduzca un numero: "<<endl;
 			cin>>extra;
 			if (extra<dinero){
-				saldo =dinero-extra; 
+				saldo =dinero-extra;
 				cout<<"Dinero en cuenta: "<< saldo<<endl;
-			} 
+			}
 			else{
 					cout<<"Dinero insuficiente."<<endl;
 			}
@@ -42,6 +42,7 @@ int main (){
 			count<<"Opcion no valida."<<endl;
 			break;
 	}
+	cin.get();//para linux
 	return 0;
 
 }

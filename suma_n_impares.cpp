@@ -18,6 +18,7 @@ int main (){
 		sumaTotal += i;
 	}
 	cout<<"\nLa suma total es: "<<sumaTotal<<endl;
-	systm("pause");
+	cin.get();//para linux
+	//system("pause");//para windows
 	return 0;
 }

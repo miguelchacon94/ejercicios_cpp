@@ -11,12 +11,13 @@ using namespace std;
 
 int main (){
 	int i =0;
-	
+
 	do{
 		cout<<i<<endl;
 		i++;
 	}while(i<=10);
-	systm("pause");//evita que los programas ejecutables no terminen hasta que se presione una tecla
+	cin.get();//para linux
+	//system("pause");//evita que los programas ejecutables no terminen hasta que se presione una tecla, solo para windows
 	return 0;
 
 }

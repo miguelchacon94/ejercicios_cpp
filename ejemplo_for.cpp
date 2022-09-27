@@ -14,8 +14,8 @@ int main (){
 	for(i=1; i<=10;i++){
 		cout<<i<<endl;
 	}
-	
-	systm("pause");//evita que los programas ejecutables no terminen hasta que se presione una tecla
+	cin.get();//para linux
+	//system("pause");//evita que los programas ejecutables no terminen hasta que se presione una tecla solo para windows
 	return 0;
 
 }

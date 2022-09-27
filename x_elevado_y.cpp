@@ -8,6 +8,7 @@
 /************************************************/
 #include<iostream>
 #include <stdlib.h>
+#include <cstdlib>
 
 using namespace std;
 
@@ -20,8 +21,9 @@ int main (){
 	for (int i=1; i<=y;i++){
 		elevacion = elevacion * x;
 	}
-	cout<<"\nEl resultado es: "<<elevacion<<endl;
-	systm("pause");
+	cout<<"\nEl resultado es: "<<elevacion;
+	cin.get();//para linux
+	//system("pause");//solo para windows
 	return 0;
 
 }

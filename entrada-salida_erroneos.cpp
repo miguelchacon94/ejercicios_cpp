@@ -29,6 +29,6 @@ int main (){
 	cout<<"\nEl sexo es: "<<precio_final<<endl;
 	cout<<"La altura es: "<<precio_final<<endl;
 	cout<<"La edad es: "<<precio_final<<endl;
-	
+	cin.get();
 	return 0;
 }

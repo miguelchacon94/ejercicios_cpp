@@ -26,7 +26,7 @@ int main (){
 	else{
 		cout<<"\nEl numero coincide con ninguno"<<endl;
 	}
-	
-	
+
+	cin.get();
 	return 0;
 }
