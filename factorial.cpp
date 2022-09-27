@@ -18,6 +18,7 @@ int main (){
 		resultado = resultado * i;
 	}
 	cout<<"\nEl resultado total es: "<<resultado<<endl;
-	systm("pause");
+	cin.get();
+	//system("pause");//solo para windows
 	return 0;
 }

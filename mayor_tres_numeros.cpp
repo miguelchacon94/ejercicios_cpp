@@ -17,7 +17,7 @@ int main (){
 	cin>>numero2;
 	cout<< "Introduce numero3: ";
 	cin>>numero3;
-	
+
 	if (numero1 == numero2){
 		if(numero3 == numero2){
 			cout<< "\nLos numeros son iguales"<<endl;
@@ -29,7 +29,7 @@ int main (){
 			else{
 				cout<< "\nNumero3 es el mayor"<<endl;
 			}
-			
+
 		}
 	}
 	else{
@@ -45,7 +45,7 @@ int main (){
 					cout<<"\nEl numero 2 y 3 son los mayores"<<endl;
 				}
 			}
-			
+
 		}
 		else{
 			if (numero1 == numero3){
@@ -68,11 +68,11 @@ int main (){
 						cout<<"\nNumero3 es el mayor"<<endl;
 					}
 				}
-				
+
 			}
 		}
 	}
-	
+	cin.get();
 	return 0;
 
 }

@@ -27,7 +27,7 @@ int main (){
 	centenas = numero%10;
 	numero /=10;
 	millar = numero%10;
-	switch(millar):
+	switch(millar){
 		case 1:
 			cout<<"M";
 			break;
@@ -37,7 +37,8 @@ int main (){
 		case 3:
 			cout<<"MMM";
 			break;
-	switch(centenas):
+	}
+	switch(centenas){
 		case 1:
 			cout<<"C";
 			break;
@@ -49,23 +50,24 @@ int main (){
 			break;
 		case 4:
 			cout<<"CD";
-			break
+			break;
 		case 5:
 			cout<<"D";
-			break
+			break;
 		case 6:
 			cout<<"DC";
-			break
+			break;
 		case 7:
 			cout<<"DCC";
-			break
+			break;
 		case 8:
 			cout<<"DCCC";
-			break
+			break;
 		case 9:
 			cout<<"CM";
-			break
-	switch(decenas):
+			break;
+	}
+	switch(decenas){
 		case 1:
 			cout<<"X";
 			break;
@@ -77,23 +79,24 @@ int main (){
 			break;
 		case 4:
 			cout<<"XL";
-			break
+			break;
 		case 5:
 			cout<<"L";
-			break
+			break;
 		case 6:
 			cout<<"LX";
-			break
+			break;
 		case 7:
 			cout<<"LXX";
-			break
+			break;
 		case 8:
 			cout<<"LXXX";
-			break
+			break;
 		case 9:
 			cout<<"XC";
-			break
-	switch(unidades):
+			break;
+	}
+	switch(unidades){
 		case 1:
 			cout<<"I";
 			break;
@@ -105,22 +108,24 @@ int main (){
 			break;
 		case 4:
 			cout<<"IV";
-			break
+			break;
 		case 5:
 			cout<<"V";
-			break
+			break;
 		case 6:
 			cout<<"VI";
-			break
+			break;
 		case 7:
 			cout<<"VII";
-			break
+			break;
 		case 8:
 			cout<<"VIII";
-			break
+			break;
 		case 9:
 			cout<<"VIII";
-			break
+			break;
+	}
+	cin.get();
 	return 0;
 
 }

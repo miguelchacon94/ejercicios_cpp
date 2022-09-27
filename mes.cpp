@@ -13,10 +13,10 @@ int main (){
 	int numero;
 	cout<< "Introduce un numero: ";
 	cin>>numero;
-	switch(unidades):
-		case 1:
-			cout<<"Enero";
-			break;
+	switch(numero){
+        case 1:
+            cout<<"Enero";
+            break;
 		case 2:
 			cout<<"Febrero";
 			break;
@@ -25,34 +25,36 @@ int main (){
 			break;
 		case 4:
 			cout<<"Abril";
-			break
+			break;
 		case 5:
 			cout<<"Mayo";
-			break
+			break;
 		case 6:
 			cout<<"Junio";
-			break
+			break;
 		case 7:
 			cout<<"Julio";
-			break
+			break;
 		case 8:
 			cout<<"Agosto";
-			break
+			break;
 		case 9:
 			cout<<"Septiembre";
-			break
+			break;
 		case 10:
 			cout<<"Octubre";
-			break
+			break;
 		case 11:
 			cout<<"Noviembre";
-			break
+			break;
 		case 12:
 			cout<<"Diciembre";
-			break
+			break;
 		default:
 			cout<<"No es un mes";
 			break;
+	}
+    cin.get();
 	return 0;
 
 }

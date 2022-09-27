@@ -20,6 +20,6 @@ int main (){
 	precio_int=n1 * iva;
 	precio_final= precio_int * n1;
 	cout<<"\nEl precio final es: "<<precio_final<<endl;
-	
+	cin.get();
 	return 0;
 }

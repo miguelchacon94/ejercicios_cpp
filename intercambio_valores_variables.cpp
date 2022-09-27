@@ -20,5 +20,6 @@ int main (){
 	y=aux;
 	cout<<"\nEl valor de X es: "<<x<<endl;
 	cout<<"El valor de Y es: "<<y<<endl;
+	cin.get();
 	return 0;
 }

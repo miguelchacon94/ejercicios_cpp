@@ -16,7 +16,7 @@ int main (){
 	cin>>numero1;
 	cout<< "Introduce numero2: ";
 	cin>>numero2;
-	
+
 	if (numero1 == numero2){
 		cout<< "Los numeros son iguales";
 	}
@@ -28,7 +28,7 @@ int main (){
 			cout<< "Numero2 es mayor que numero1";
 		}
 	}
-	
+	cin.get();
 	return 0;
 
 }

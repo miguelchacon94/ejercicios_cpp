@@ -19,6 +19,7 @@ int main (){
 	resultado= (sqrt(x))/(pow(y,2)-1);//pow=elebar la primera variable a la segunda
 	cout.precision(2);//sirve para modificar la precision de los numeros mostrados por consola
 	cout<< "\nEl resultado es: "<<resultado<<endl;
+	cin.get();
 	return 0;
 
 }

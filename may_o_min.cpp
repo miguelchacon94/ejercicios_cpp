@@ -22,7 +22,9 @@ int main (){
 		{
 			cout<<"\nEl numero es negativo"<<endl;
 		}
-			
+
 	}
+	cin.get();
+	return 0;
 
 }
