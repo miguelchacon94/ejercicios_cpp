@@ -11,7 +11,7 @@ using namespace std;
 
 int main (){
 	int n;
-	cout<<"Introduzca el numero de elementos a sumar: ";
+	cout<<"Introduzca el numero de elementos a descomponer en nunmeros primos: ";
 	cin>>n;
 	for (int i = 2;n>1;i++){
 		while(n%i==0){
